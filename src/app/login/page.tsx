@@ -28,7 +28,7 @@ export default function LoginPage() {
             <h1>Login</h1>
             <hr />
 
-            <label htmlFor="email">email</label>
+            {/* <label htmlFor="email">email</label> */}
             <input
                 className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
                 id="email"
@@ -37,7 +37,7 @@ export default function LoginPage() {
                 onChange={(e) => setUser({ ...user, email: e.target.value })}
                 placeholder="email"
             />
-            <label htmlFor="password">password</label>
+            {/* <label htmlFor="password">password</label> */}
             <input
                 className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
                 id="password"

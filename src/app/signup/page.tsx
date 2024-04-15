@@ -41,9 +41,8 @@ export default function SignupPage() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
             <h1>signup</h1>
-            {/* {loading && <Loaders />} */}
             <hr />
-            <label htmlFor="username">username</label>
+            {/* <label htmlFor="username">username</label> */}
             <input
                 className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
                 id="username"
@@ -52,7 +51,7 @@ export default function SignupPage() {
                 onChange={(e) => setUser({ ...user, username: e.target.value })}
                 placeholder="username"
             />
-            <label htmlFor="email">email</label>
+            {/* <label htmlFor="email">email</label> */}
             <input
                 className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
                 id="email"
@@ -61,7 +60,7 @@ export default function SignupPage() {
                 onChange={(e) => setUser({ ...user, email: e.target.value })}
                 placeholder="email"
             />
-            <label htmlFor="password">password</label>
+            {/* <label htmlFor="password">password</label> */}
             <input
                 className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black"
                 id="password"
